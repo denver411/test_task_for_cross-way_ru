@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|PT+Sans:400,400i,700&subset=cyrillic');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|PT+Sans:400,400i,700&subset=cyrillic");
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +23,7 @@ input {
   border-radius: 0;
   -webkit-appearance: none;
 }
+
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -45,11 +46,9 @@ input {
     line-height: 1.15;
     text-align: right;
     letter-spacing: -4px;
-    span {
+    a {
       display: block;
-      a {
-        color: #767676;
-      }
+      color: #767676;
     }
   }
   &__company {
@@ -111,6 +110,10 @@ input {
     font-size: 1.5rem;
     color: #767676;
     background-color: #ffffff;
+    &::placeholder {
+      font-size: 0.95em;
+      opacity: 0.7;
+    }
   }
   &__submit {
     width: 217px;
@@ -118,6 +121,7 @@ input {
     font-size: 24px;
     color: #ffffff;
     background-color: #6f6f6f;
+    cursor: pointer;
   }
 }
 
