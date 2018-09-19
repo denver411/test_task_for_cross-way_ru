@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Самая клевая компания
+    link(rel="stylesheet", href="css/style.css")
+  body
+    .container
+      header.header
+        .wrapper
+          .header__logo
+            img(srcset="img/logotype.png, img/logotype@2x.png 2x", src="img/logotype.png", alt="logotype")
+            h1.header__company название компании
+          .header__contacts
+            span +7 (499) 777-77-77
+            span +7 (499) 777-77-77
+      section.main-menu
+        nav.main-menu__nav.menu
+          .wrapper
+            ul.menu__items
+              li
+                a(href="#").menu__item Главная
+              li
+                a(href="#").menu__item Каталог
+              li
+                a(href="#").menu__item Доставка и оплата
+              li
+                a(href="#").menu__item Прайс-лист
+              li
+                a(href="#").menu__item Контакты
+      section.banner
+        .wrapper
+          img(srcset="img/banner_1.png, img/banner_1@2x.png 2x", src="img/banner_1.png", alt="banner").banner__item
+          form.banner__form.form
+            input(type="text", name="name", placeholder="Имя").form__input
+            input(type="tel", name="phone", placeholder="Телефон").form__input
+            input(type="submit", name="submit", value="Отправить").form__submit
+      section.content
+        .wrapper
+          aside.content__news.news-block
+            h2.news-block__title Новости
+            .news-block__item
+              time(datetime="2013-09-14 00:00") 14 сентября 2013 г.
+              a(href="#") Редизайн веб-сайта архитектурного бюро
+            .news-block__item
+              time(datetime="2013-09-14 00:00") 14 сентября 2013 г.
+              a(href="#") Раскрутка интернет-магазина декоративных стикеров и виниловых наклеек
+            .news-block__item
+              time(datetime="2013-09-14 00:00") 14 сентября 2013 г.
+              a(href="#") SEO-продвижение сайта поставщика дизель генераторов
+            .news-block__item
+              time(datetime="2013-09-14 00:00") 14 сентября 2013 г.
+              a(href="#") Поисковое продвижение веб-сайта поставщика гидрооборудования
+            .news-block__archive
+             a(href="#") Архив новостей       
+          article.content__article.article
+            h2.article__title Компания «Пиксель Плюс»
+            p.article__text Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участиев разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.
+            p.article__text Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.
+            p.article__text Наша компания является золотым сертифицированным партнёром «1С-Битрикс» (сертификат № 33939 с 2007 по 2013), что ещё раз подтверждает квалификацию наших сотрудников. В январе 2013 мы стали лидерами продаж продуктов «1С-Битрикс» и вошли в число лучших разработчиков сайтов России. Все специалисты занимающиеся изготовлением сайтов проходят обязательную сертификацию «1С-Битрикс» в течении первых 6 месяцев работы в компании, после чего продолжают непрерывно поддерживать и развивать свои профессиональные навыки.
